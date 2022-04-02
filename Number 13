@@ -1,0 +1,4 @@
+SELECT name
+   FROM world
+WHERE name LIKE '%a%' and name like '%e%' and  name like '%i%' and name like '%o%' and name like '%u%' 
+and name not like '% %';
